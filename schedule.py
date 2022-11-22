@@ -5,7 +5,6 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains as AC
 
 weekNumber = date.today().isocalendar().week
-todayDate = date.today().day
 
 # Checks if day of request is EOW; if is makes request with next week
 weekDay = date.today().isoweekday()
